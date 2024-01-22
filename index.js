@@ -1,5 +1,3 @@
-// Octokit.js
-// https://github.com/octokit/core.js#readme
 
 import { Octokit } from "https://esm.sh/@octokit/core";
 
@@ -13,10 +11,6 @@ $('#getValueButton').on('click', function () {
   username = $('#username').val()
   getRepositoryAndUserDetails()
 })
-
-//how will you render if you know the pageurl
-// you have a page url. first fetch data from that url 
-// send that data to render function which will rerender the data
 
 const onPageClick = async (pageNumber) => {
   currentPage = pageNumber
@@ -43,7 +37,6 @@ const onPageClick = async (pageNumber) => {
 }
 
 const renderPages = (numberOfPages) => {
-  // create a ul with x number of li
   const list = $("#pages")
   list.empty()
   for (let i = 0; i < numberOfPages; i++) {
