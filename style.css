@@ -1,0 +1,34 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    margin: 20px auto;
+}
+
+.profile-header {
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.profile-avatar {
+    width: 150px;
+    height: 150px;
+}
+
+.list-inline-item {
+    margin-right: 20px;
+}
+
+#repositories {
+    justify-content: space-around;
+}
+
+.flex {
+    display: flex;
+}
+
+#pages {
+    list-style: none;
+}
